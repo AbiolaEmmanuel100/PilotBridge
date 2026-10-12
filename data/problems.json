@@ -1,0 +1,46 @@
+[
+  {
+    "id": "saas_subscription",
+    "title": "International software or SaaS subscription declined",
+    "shortDescription": "Your attempt to pay for an international software or SaaS subscription was declined or blocked.",
+    "possibleExplanations": [
+      "Possible explanation: The card issuer may restrict or decline certain international or recurring online payments.",
+      "Possible explanation: The merchant may not accept the card scheme or billing country you used.",
+      "Possible explanation: Fraud checks or geographic rules on either side may have blocked the transaction.",
+      "General information: Local payment methods are not always usable for every international merchant."
+    ]
+  },
+  {
+    "id": "digital_tool",
+    "title": "International digital tool or professional service payment declined",
+    "shortDescription": "Payment for an international digital tool, platform, or professional service did not go through.",
+    "possibleExplanations": [
+      "Possible explanation: The payment method may not be enabled for international online purchases.",
+      "Possible explanation: The service provider may only accept certain card networks or regions.",
+      "Possible explanation: Amount limits, currency, or billing-address rules may have caused a decline.",
+      "General information: Different merchants apply different acceptance rules."
+    ]
+  },
+  {
+    "id": "local_card_not_accepted",
+    "title": "Local card or payment method not accepted by an international merchant",
+    "shortDescription": "An international website or merchant does not accept your local card or payment method.",
+    "possibleExplanations": [
+      "Possible explanation: The merchant may only accept international card schemes such as Visa or Mastercard.",
+      "Possible explanation: A local-only card scheme may have limited or no acceptance outside its home market.",
+      "Possible explanation: The merchant’s payment processor may not support the card or region.",
+      "General information: Card acceptance depends on both the issuer and the merchant’s setup."
+    ]
+  },
+  {
+    "id": "education_fee",
+    "title": "Education, examination, or training fee payment difficulty",
+    "shortDescription": "You are having trouble paying an international education, examination, or training-related fee.",
+    "possibleExplanations": [
+      "Possible explanation: The institution may only accept specific payment methods or currencies.",
+      "Possible explanation: Card or bank restrictions on international education payments may apply.",
+      "Possible explanation: Large or unusual amounts can trigger additional checks or declines.",
+      "General information: Education payments often have their own rules and preferred channels."
+    ]
+  }
+]

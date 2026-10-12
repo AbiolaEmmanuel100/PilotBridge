@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo_provider_alpha",
+    "displayName": "DemoPay Alpha",
+    "status": "DEMO — NOT A REAL PROVIDER",
+    "supportedCountries": ["NG"],
+    "supportedPurposes": ["saas_subscription", "digital_tool"],
+    "fundingMethods": ["local_bank_transfer", "local_card"],
+    "limitations": "Illustrative limitation only. This is demonstration data and describes no real service.",
+    "feeNote": "Illustrative fee note only — not a real offer or price.",
+    "lastChecked": "2026-10-12",
+    "merchantCategories": ["software", "digital_tools"]
+  },
+  {
+    "id": "demo_provider_beta",
+    "displayName": "SampleRoute Beta",
+    "status": "DEMO — NOT A REAL PROVIDER",
+    "supportedCountries": ["NG"],
+    "supportedPurposes": ["local_card_not_accepted", "saas_subscription"],
+    "fundingMethods": ["local_card", "other"],
+    "limitations": "Demonstration record only. No real eligibility or acceptance is claimed.",
+    "feeNote": "Sample text for layout purposes only.",
+    "lastChecked": "2026-10-12",
+    "merchantCategories": ["software", "general"]
+  },
+  {
+    "id": "demo_provider_gamma",
+    "displayName": "Illustrative Option Gamma",
+    "status": "DEMO — NOT A REAL PROVIDER",
+    "supportedCountries": ["NG", "GH"],
+    "supportedPurposes": ["education_fee", "digital_tool"],
+    "fundingMethods": ["local_bank_transfer", "other"],
+    "limitations": "This card exists solely to show how filtered results appear. It is not a real provider.",
+    "feeNote": "Not a real fee. Demonstration value only.",
+    "lastChecked": "2026-10-12",
+    "merchantCategories": ["education", "digital_tools"]
+  },
+  {
+    "id": "demo_provider_delta",
+    "displayName": "Placeholder Service Delta",
+    "status": "DEMO — NOT A REAL PROVIDER",
+    "supportedCountries": ["NG"],
+    "supportedPurposes": ["education_fee", "local_card_not_accepted"],
+    "fundingMethods": ["local_card", "local_bank_transfer"],
+    "limitations": "Demo limitations text. Do not treat any detail as factual.",
+    "feeNote": "Illustrative only.",
+    "lastChecked": "2026-10-12",
+    "merchantCategories": ["education", "general"]
+  },
+  {
+    "id": "demo_provider_epsilon",
+    "displayName": "Mock Listing Epsilon",
+    "status": "DEMO — NOT A REAL PROVIDER",
+    "supportedCountries": ["KE"],
+    "supportedPurposes": ["saas_subscription"],
+    "fundingMethods": ["other"],
+    "limitations": "Included so the filter can demonstrate a non-matching country. Not real.",
+    "feeNote": "Demo note.",
+    "lastChecked": "2026-10-12",
+    "merchantCategories": ["software"]
+  }
+]
