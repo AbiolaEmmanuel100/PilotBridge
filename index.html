@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PilotBridge — Payment Problem Diagnosis (Demo)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>PilotBridge</h1>
+    <p class="tagline">Connecting people to better ways to pay — demonstration only</p>
+  </header>
+
+  <div class="disclaimer banner" role="note">
+    <strong>Information only. Demonstration data.</strong>
+    This prototype does not process, initiate, or hold payments. All providers shown are fictional and labelled “DEMO — NOT A REAL PROVIDER.” Nothing here is a real offer. Always verify information directly with any real service you consider.
+  </div>
+
+  <main>
+    <section id="problem-section" aria-labelledby="problem-heading">
+      <h2 id="problem-heading">1. What payment problem are you experiencing?</h2>
+      <div id="problem-buttons" class="button-group"></div>
+    </section>
+
+    <section id="questions-section" class="hidden" aria-labelledby="questions-heading">
+      <h2 id="questions-heading">2. Tell us a little more</h2>
+      <form id="diagnosis-form">
+        <label for="country">Country of residence</label>
+        <select id="country" name="country">
+          <option value="NG" selected>Nigeria</option>
+          <option value="GH">Ghana</option>
+          <option value="KE">Kenya</option>
+          <option value="OTHER">Other</option>
+        </select>
+
+        <label for="purpose">Payment purpose</label>
+        <select id="purpose" name="purpose"></select>
+
+        <label for="merchant-category">Merchant or institution category</label>
+        <select id="merchant-category" name="merchant-category">
+          <option value="software">Software / SaaS</option>
+          <option value="digital_tools">Digital tools / professional services</option>
+          <option value="education">Education / examination / training</option>
+          <option value="general">General / other</option>
+        </select>
+
+        <label for="payment-method">Available payment method</label>
+        <select id="payment-method" name="payment-method">
+          <option value="local_card">Local card (e.g. Verve or restricted bank card)</option>
+          <option value="local_bank_transfer">Local bank transfer</option>
+          <option value="other">Other / not sure</option>
+        </select>
+
+        <div class="form-actions">
+          <button type="button" id="show-results">Show sample options</button>
+          <button type="button" id="reset-form">Reset</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="results-section" class="hidden" aria-live="polite">
+      <h2>3. Possible explanations and sample options</h2>
+      <div id="explanations"></div>
+      <div id="results"></div>
+    </section>
+
+    <section id="feedback-section" aria-labelledby="feedback-heading">
+      <h2 id="feedback-heading">Optional feedback (demonstration only)</h2>
+      <p class="note">
+        This feedback form is for demonstration. Your answers are <strong>not transmitted or saved</strong> anywhere. Nothing leaves your browser.
+      </p>
+      <form id="feedback-form">
+        <label for="feedback-useful">Did any of the sample options appear useful for understanding the problem?</label>
+        <select id="feedback-useful" name="useful">
+          <option value="">Choose…</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="unsure">Unsure</option>
+        </select>
+        <label for="feedback-comment">Optional short comment (not saved)</label>
+        <textarea id="feedback-comment" name="comment" maxlength="200" rows="3" placeholder="Type here if you wish — it will not be stored"></textarea>
+        <button type="button" id="feedback-submit">Demonstrate feedback</button>
+      </form>
+      <p id="feedback-message" class="feedback-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>PilotBridge demonstration prototype. Information only. No payments are processed. All provider data is fictional.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
